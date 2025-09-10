@@ -1,0 +1,10 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color system:
+   - Primary: brand (#2563eb)
+   - Accent: #10b981
+   - Neutrals: white, gray-100..900
+*/
