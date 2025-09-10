@@ -4,8 +4,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --env-file=.env --watch src/index.js",
-    "start": "node --env-file=.env src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
