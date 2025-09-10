@@ -5,7 +5,10 @@ import authRoutes from "./routes/auth.js"
 import coursesRoutes from "./routes/courses.js"
 import learningRoutes from "./routes/learning.js"
 
-dotenv.config()
+//dotenv.config()
+
+// Load environment variables (only needed locally)
+require('dotenv').config()
 
 const app = express()
 app.use(cors({ origin: "http://localhost:5173", credentials: false }))
